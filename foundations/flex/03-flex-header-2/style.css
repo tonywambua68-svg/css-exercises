@@ -6,6 +6,9 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  
+  
+  
 }
 
 .header {
@@ -35,14 +38,52 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: block;
+  justify-content: right;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  
 }
+
+.a{
+  display: inline-block;
+  justify-content: center;
+  gap: 40px;
+  
+}
+
+
 
 ul {
   list-style-type: none;
+  margin: 0;
+  display: flex;
+  gap:16px;
+  padding: 0;
 }
+
+ .right{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+.left{
+  display: flex;
+  gap: 16px;
+  align-items:center;
+  margin-left: auto;
+  
+}
+
+
+
+
+
+
+
