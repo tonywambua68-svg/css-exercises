@@ -6,7 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
+  margin:0;
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: block;
 }
 
 .icon {
@@ -33,6 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+
 }
 
 .close-button {
@@ -45,15 +48,24 @@ body {
   width: 24px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   border: 1px solid #eee;
   padding: 0;
+  
+  
+
+  
+  
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+
 }
 
 button.continue {
@@ -66,4 +78,28 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-weight:900;
+  margin-bottom: 8px;
+
+  
+  
+}   
+
+.text{
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
